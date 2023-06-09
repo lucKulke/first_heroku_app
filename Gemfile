@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-group :production do
-  gem "puma"
-end
-ruby "3.1.2"
-gem "sinatra", "~>1.4.7"
+ruby "3.0.4"
+
+gem "puma"
+
+gem "sinatra"
 gem "sinatra-contrib"
 gem "erubis"

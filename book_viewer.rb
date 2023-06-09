@@ -1,5 +1,6 @@
+require "puma"
 require "sinatra"
-require "sinatra/reloader" if development?
+require "sinatra/reloader"
 require "tilt/erubis"
 
 before do
